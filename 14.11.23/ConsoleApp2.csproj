@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F7EDC4B-AFF1-4D29-BCA1-30A7C3F21CA9}</ProjectGuid>
+    <ProjectGuid>{1448F42B-7D86-47AB-986C-B3F81DA52239}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Bicycle.cs" />
+    <Compile Include="FrozenMountainBikes.cs" />
+    <Compile Include="MountainBikes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Teacher.cs" />
+    <Compile Include="RaceBike.cs" />
+    <Compile Include="StuntBike.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
